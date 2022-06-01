@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Sukses Login")
-	bot.chat("Halo umat manusia :3");
+	bot.chat("Hello!");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Selamat bergabung di server buatan manusia :)")
+	bot.chat("Selamat bergabung di server!")
 	first = false;
 	}
 	else{
-		bot.chat("Diperbarui oleh Manusia •v•")
+		bot.chat("Semoga Betah :)")
 		first = true;
 	}
   }, 3600000 * i); 
